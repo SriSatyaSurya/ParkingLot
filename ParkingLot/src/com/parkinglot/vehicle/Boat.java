@@ -9,7 +9,7 @@ public Boat(String licensePlate) {
 }
 
 @Override
-public VehicleSize getSize() {
+public VehicleSize getVehicleSize() {
    return VehicleSize.EXTRA_LARGE;
 }
 }

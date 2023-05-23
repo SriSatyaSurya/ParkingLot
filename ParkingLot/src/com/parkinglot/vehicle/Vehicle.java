@@ -15,5 +15,5 @@ public abstract class Vehicle {
         return licensePlate;
     }
     
-    public abstract VehicleSize getSize();
+    public abstract VehicleSize getVehicleSize();
 }

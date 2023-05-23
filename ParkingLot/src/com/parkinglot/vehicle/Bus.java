@@ -9,7 +9,7 @@ public class Bus extends Vehicle {
     }
     
     @Override
-    public VehicleSize getSize() {
+    public VehicleSize getVehicleSize() {
         return VehicleSize.LARGE;
     }
 }

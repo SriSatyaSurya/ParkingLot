@@ -9,7 +9,7 @@ public class RV extends Vehicle {
  }
  
  @Override
- public VehicleSize getSize() {
+ public VehicleSize getVehicleSize() {
      return VehicleSize.DOUBLE_EXTRA_LARGE;
  }
 }

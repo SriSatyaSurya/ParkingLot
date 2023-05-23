@@ -9,7 +9,7 @@ public class Motorcycle extends Vehicle {
     }
     
     @Override
-    public VehicleSize getSize() {
+    public VehicleSize getVehicleSize() {
         return VehicleSize.MOTORCYCLE;
     }
 }

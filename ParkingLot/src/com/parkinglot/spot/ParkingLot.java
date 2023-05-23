@@ -46,7 +46,8 @@ public class ParkingLot {
             for (int row = 0; row < rows; row++) {
                 for (int spot = 0; spot < spotsPerRow; spot++) {
                     ParkingSpot parkingSpot = parkingSpots[level][row][spot];
-                    if (parkingSpot.canFitVehicle(vehicle)) {
+                    if (parkingSpot.canFitVehicle(vehicle)) 
+                    {
                         return parkingSpot.parkVehicle(vehicle);
                     }
                 }

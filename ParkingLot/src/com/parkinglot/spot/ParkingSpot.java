@@ -12,7 +12,7 @@ public class ParkingSpot {
     }
     
     public boolean canFitVehicle(Vehicle vehicle) {
-        return currentVehicle == null && size.getSize() >= vehicle.getSize().getSize();
+        return currentVehicle == null && size.getSize() >= vehicle.getVehicleSize().getSize();
     }
     
     public boolean parkVehicle(Vehicle vehicle) {
