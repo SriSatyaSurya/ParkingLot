@@ -68,4 +68,8 @@ public class ParkingLot {
             }
         }
     }
+    
+    public ParkingSpot getParkingSpot(int level, int row, int spot) {
+        return parkingSpots[level][row][spot];
+    }
 }

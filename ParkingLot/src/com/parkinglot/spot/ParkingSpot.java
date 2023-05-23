@@ -3,7 +3,7 @@ import com.parkinglot.vehicle.Vehicle;
 import com.parkinglot.size.VehicleSize;
 
 // ParkingSpot class
-class ParkingSpot {
+public class ParkingSpot {
     private VehicleSize size;
     private Vehicle currentVehicle;
     
