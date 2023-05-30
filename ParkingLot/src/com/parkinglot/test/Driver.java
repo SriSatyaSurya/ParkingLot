@@ -62,9 +62,9 @@ public class Driver {
         // Display the result of parking the motorcycle
         System.out.println("Motorcycle 2 parked successfully: " + success7);
         
-////        ParkingSpot Spot1 = parkingLot.getParkingSpot(0, 0, 0);
-////        boolean isSpot1Occupied = Spot1.isOccupied();
-////        System.out.println("Is parking spot occupied: " + isSpo t1Occupied);
+//        ParkingSpot Spot1 = parkingLot.getParkingSpot(0, 0, 0);
+//        boolean isSpot1Occupied = Spot1.isOccupied();
+//        System.out.println("Is parking spot occupied: " + isSpot1Occupied);
 //        
         for (int level = 0; level < levels; level++) {
             for (int row = 0; row < rows; row++) {
